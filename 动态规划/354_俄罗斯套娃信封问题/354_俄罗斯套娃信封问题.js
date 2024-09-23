@@ -73,7 +73,7 @@ const binarySearch = (dp, hi) => {
 	while (low < high) {
 		const mid = Math.floor((high - low) / 2) + low
 
-		if (dp[mid] <>> hi) {
+		if (dp[mid] < hi) {
 			low = mid + 1
 		} else {
 			high = mid
